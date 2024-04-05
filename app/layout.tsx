@@ -16,7 +16,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+       <body className={`${inter.className} bg-black`}>
+
+  {/* <QueryClientProvider client={queryClient}> */}
+  {/* <ToastContainer
+    position="top-center"
+    autoClose={2000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick
+    rtl={false}
+    pauseOnFocusLoss
+    draggable
+    pauseOnHover
+    theme="dark" /> */}
+
+  <main className='h-screen flex flex-col gap-[1px] bg-black text-white'>
+   
+    {/* <PageLoader show={isLoading}/> */}
+   
+      {children}
+  </main>
+
+  {/* </QueryClientProvider> */}
+</body>
     </html>
   );
 }
