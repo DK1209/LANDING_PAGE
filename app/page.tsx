@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation';
 
 //Landing Page Components
-import FeaturesCard from "./LandingPageComponents/featuresCard";
+import FeaturesCard from "./LandingPageComponents/FeaturesCard";
 import FAQ from "./LandingPageComponents/FAQSection/FAQ";
 import Footer from "./LandingPageComponents/Footer";
 import CarouselSlider from "./LandingPageComponents/CarouselSlider";
