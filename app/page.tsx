@@ -15,7 +15,7 @@ import InfoCards from "./LandingPageComponents/InfoCards/InfoCards";
 import PageLoader from './PageLoader/PageLoader';
 
 
-export default function landingPage() {
+export default function LandingPage() {
   const router = useRouter();
   const myRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
